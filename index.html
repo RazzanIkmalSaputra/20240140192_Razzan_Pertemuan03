@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAWON RISRA - Asisten AI UMKM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <img src="logo UMKM.jpg" alt="Logo Pawon Risra" class="logo-img">
+      <div>
+        <h1>PAWON RISRA</h1>
+        <p>Selamat datang, selamat berbelanja camilan renyah & gurih!</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#formdata" class="nav-btn">Form Asisten</a>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section id="profile" class="card">
+      <span class="badge"></span>
+      <h2>Profil Usaha</h2>
+      <p class="desc">
+        Pawon Risra menyediakan camilan berkualitas tinggi: 
+        Keripik Singkong Original, Keripik Singkong Pedas Mantap, dan Kacang Bawang Renyah Gurih.
+      </p>
+
+      <div class="feature-box">
+        <h3>✨ Fitur Asisten AI Pemesanan</h3>
+        <p>Gunakan formulir di samping untuk memilih varian camilan favorit Anda dan memesan dengan cepat.</p>
+      </div>
+    </section>
+
+    <form id="formdata" action="#" class="card form-card">
+      <h2>Pemesanan Produk</h2>
+      <p class="subtitle">Lengkapi formulir di bawah ini dengan jelas.</p>
+
+      <div class="form-group">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+      </div>
+
+      <fieldset id="jenisProduk">
+        <legend>Pilih Jenis Produk:</legend>
+        <div class="radio-item">
+          <input type="radio" name="jenisProduk" id="keripik" checked>
+          <label for="keripik">Keripik Singkong Original</label>
+        </div>
+
+        <div class="radio-item">
+          <input type="radio" name="jenisProduk" id="keripik-pedas">
+          <label for="keripik-pedas">Keripik Singkong Pedas </label>
+        </div>
+
+        <div class="radio-item">
+          <input type="radio" name="jenisProduk" id="kacang">
+          <label for="kacang">Kacang Bawang Renyah </label>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="btn-submit">Kirim Pemesanan</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; PAWON RISRA. Praktikum Pengembangan Aplikasi Web.</p>
+  </footer>
+
+</body>
+</html>
